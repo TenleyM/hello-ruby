@@ -21,3 +21,10 @@
 # To rectify this, you can convert the number into a string
 # "i would like #{5} tacos"
 
+dice_1 = rand(1..6)
+dice_2 = rand(1..6)
+total = dice_1 + dice_2
+
+puts "dice 1: #{dice_1}"
+puts "dice 2: #{dice_2}"
+puts "your total is: #{total}"

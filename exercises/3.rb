@@ -15,3 +15,10 @@
 # Learn to read the documentation!
 # http://ruby-doc.org/core-2.5.1/Array.html
 
+Tenley_List = ["bright wok", "beer", "cookies", "apples"]
+Pavan_list = ["big bowl", "milk", "eggs", "bacon", "beer"]
+Shared_List = Tenley_List + Pavan_list
+sorted_list = Shared_List.sort
+unique_list = sorted_list.uniq
+
+puts unique_list
